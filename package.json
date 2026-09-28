@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fetchhead",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetch timestamps and head durations for scripts and CI receipts.",
+  "bin": {
+    "fetchhead": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fetchhead.git"
+  },
+  "homepage": "https://theworker02.github.io/fetchhead/",
+  "keywords": [
+    "fetch",
+    "head",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
